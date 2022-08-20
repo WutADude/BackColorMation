@@ -8,7 +8,7 @@
 **2) И инициализируем класс примерно так: | And initialize class like:**
 
 ```C#
-new ColorMation(new Control[] { //здесь ваши целевые контролы | there is ur target controls });
+new ColorMation(new Control[] { /*здесь ваши целевые контролы | there is ur target controls*/ });
 ```
 
 ## ВСЁ! | DONE!
