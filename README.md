@@ -16,3 +16,5 @@ new ColorMation(new Control[] { /*здесь ваши целевые контр�
 Максимально простая и бесполезная библиотека, которая написана криво и нагружает процессор, юзайте как хотите :) 
 
 The most simple and useless library, which is written crookedly and loads the processor, use it as you want :)
+
+![Alt Text](https://i.imgur.com/cLrLCED.gif)
