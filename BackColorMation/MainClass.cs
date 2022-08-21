@@ -8,10 +8,13 @@ namespace BackColorMation
 {
     public class ColorMation
     {
-        public ColorMation(Control[] Targets)
+        public ColorMation(Control[] Targets, bool DifferentColorsAnyway = false)
         {
             foreach (Control Target in Targets)
+            {
                 new Thread(delegate () { DoColorChange(Target); }) { IsBackground = true }.Start();
+                if (DifferentColorsAnyway) Thread.Sleep(1);
+            }
         }
 
         internal void DoColorChange(Control Target)
